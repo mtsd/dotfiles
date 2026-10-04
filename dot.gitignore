@@ -12,3 +12,5 @@
 *.pbxuser
 # unknown to ignore this ext...
 # *.a
+
+**/.claude/settings.local.json
