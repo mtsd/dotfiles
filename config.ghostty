@@ -1,0 +1,57 @@
+# テーマ（配色）を設定
+# 「Catppuccin Mocha」は目に優しいダークテーマです
+theme = Catppuccin Mocha
+
+# フォント（文字の書体）を設定
+font-family = "JetBrainsMono Nerd Font"
+
+# フォントサイズ（文字の大きさ）
+# 数字を大きくすると文字も大きくなります
+font-size = 14
+
+# 行間を少し広げてモダンにする（10%〜20%くらいが人気）
+adjust-cell-height = 5%
+
+# --- ウィンドウの設定 ---
+
+# ウィンドウの余白（周りの隙間）
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+# 背景を少し透明にする（1.0で不透明、0.0で完全透明）
+background-opacity = 0.95
+background-blur-radius = 20
+
+# 背景をぼかす（macOSのみ）
+background-blur = true
+
+# --- Macネイティブな挙動 ---
+
+# タイトルバーにタブを表示する
+#macos-titlebar-style = tabs
+# タイトルバーを透明にしてスッキリさせる
+macos-titlebar-style = transparent
+
+# フルスクリーン時にMac標準の挙動にする
+macos-window-shadow = true
+
+# タイプ中はマウスカーソルを隠す
+mouse-hide-while-typing = true
+
+# --- 操作の設定 ---
+
+# Optionキーを「Alt」として使う（Vimなどのショートカット用）
+macos-option-as-alt = true
+
+# 選択したらすぐコピー
+# マウスで文字を選択すると自動でコピーされます
+copy-on-select = true
+
+# クリップボードの読み書きを許可
+clipboard-read = allow
+clipboard-write = allow
+
+# 閉じるときに確認しない
+# 毎回「本当に閉じますか？」と聞かれなくなります
+confirm-close-surface = false
