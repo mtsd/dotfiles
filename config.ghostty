@@ -55,3 +55,5 @@ clipboard-write = allow
 # 閉じるときに確認しない
 # 毎回「本当に閉じますか？」と聞かれなくなります
 confirm-close-surface = false
+
+shell-integration-features = ssh-terminfo,ssh-env
